@@ -1,0 +1,4 @@
+FROM alpine
+ENV NAME ="Artem"
+COPY envVarApp ./envVarApp
+CMD ["./envVarApp"]
