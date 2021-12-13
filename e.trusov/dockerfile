@@ -1,0 +1,7 @@
+FROM alpine
+
+COPY error ./error
+
+ENV NAME="Evgeniy"
+
+CMD ["./error"]
